@@ -1,0 +1,14 @@
+<<<<<<< HEAD:styel.css
+=======
+*{
+   margin:0%;
+   padding:0%;
+   box-sizing: border-box;
+}
+
+html,body{
+   height: 100%;
+   width: 100%;
+   background-color: aqua;
+}
+>>>>>>> 229eef449ad6810efaeae90b64770e9a5fd8bc77:style.css
