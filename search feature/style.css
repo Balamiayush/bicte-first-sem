@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+   font-family: "Poppins", serif;
+   margin: 0;
+   padding: 0;
+}
+.container {
+   padding-top: 3vh;
+   width: 100%;
+   margin: auto;
+   columns: 6;
+   column-gap: 20px;
+ }
+ .container .box {
+   width: 100%;
+   margin-bottom: 10px;
+   break-inside: avoid;
+   border-radius: 15px;
+ }
+ .container .box img {
+   max-width: 100%;
+   min-width: 100%;
+   border-radius: 10px;
+ }
+ 
+ img:hover {
+   opacity: 0.95;
+ }
+ 
+ .caption {
+   color: #fff;
+   padding: 2px;
+ }
+ 
+ @media (max-width: 1427px) {
+   .container {
+     columns: 5;
+     width: calc(100% - 40px);
+   }
+ }
+ @media (max-width: 1200px) {
+   .container {
+     columns: 4;
+   }
+ }
+ 
+ @media (max-width: 1000px) {
+   .container {
+     columns: 3;
+   }
+ 
+   body {
+     overflow-x: hidden;
+   }
+ }
+ 
+ @media (max-width: 786px) {
+   .container {
+     columns: 2;
+   }
+ }
+ 
+ @media (max-width: 480px) {
+   .container {
+     columns: 1;
+   }
+ }
