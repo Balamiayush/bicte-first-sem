@@ -1,0 +1,30 @@
+.navbar {
+  backdrop-filter: blur(8px);
+  background-color: var(
+    --token-afa06957-aab8-43e9-9413-2d3b8d185e86,
+    rgba(137, 158, 255, 0.05)
+  );
+  border-radius: 50px;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1.1px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -1px 4px 0px inset;
+  opacity: 1;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: fontis;
+}
+li{
+    transition: 0.2s ease-in-out;
+}
+li:nth-child(4){
+    background:#B0FB90 ;
+}
+li:hover{
+    background: #FF4E21;
+}
+@font-face {
+    font-family: fontis;
+    src: url(font.ttf);
+}
