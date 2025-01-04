@@ -9,22 +9,31 @@
     rgba(0, 0, 0, 0.15) 0px -1px 4px 0px inset;
   opacity: 1;
 }
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-    font-family: fontis;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: fontis;
 }
-li{
-    transition: 0.2s ease-in-out;
+li {
+  transition: 0.2s ease-in-out;
 }
-li:nth-child(4){
-    background:#B0FB90 ;
+li:nth-child(4) {
+  background: #b0fb90;
 }
-li:hover{
-    background: #FF4E21;
+li:hover {
+  background: #ff4e21;
 }
 @font-face {
-    font-family: fontis;
-    src: url(font.ttf);
+  font-family: fontis;
+  src: url(font.ttf);
+}
+.box1{
+  transition: 0.3s ease-in-out;
+  text-align: center;
+  line-height: 200px;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1.1px 0px inset, rgba(0, 0, 0, 0.15) 0px -1px 4px 0px inset;
+}
+.box1:hover{
+padding-right:100px;
 }
