@@ -45,6 +45,7 @@ li:hover {
 .box1:hover{
 padding-right:100px;
 }
+
 @media (max-width: 600px) {
    .navbar {
      flex-direction: column;
@@ -89,7 +90,7 @@ padding-right:100px;
      padding: 1rem;
    }
  
-   .hero3 .1box {
+   .hero3 .box1 {
      width: 100%;
      padding: 1rem;
    }
