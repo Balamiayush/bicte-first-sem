@@ -98,7 +98,7 @@ margin-bottom: 40px;
   justify-content: space-around;
   padding: 40px;
 }
-.box{
+.box6{
 height: 33rem;
 width: 22rem ;
 display: flex;
@@ -106,6 +106,7 @@ flex-direction: column;
 gap: 2rem;
 justify-content: center;
 align-items: center;
+background: none;
 }
 .container fieldset{
   height: 37rem;
