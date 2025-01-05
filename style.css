@@ -218,6 +218,63 @@ legend{
   
 }
 
+.hero3 {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  height: 100vh;
+  padding: 20px;
+  background-color: #f5f5f5; 
+}
+
+.box {
+  width: 30%;
+  background-color: #161111;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  color: white;
+  height: 60vh;
+}
+
+#box1 h1,
+#box2 h1 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.content-row {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+}
+
+.icon {
+  width: 80px;
+  height: 80px;
+  background-color: #221F29;
+  border-radius: 12px;
+}
+
+.content-box {
+  flex: 1;
+  height: 80px;
+  background-color: #221F29;
+  border-radius: 12px;
+}
+
+
+
+
+
 @media (max-width: 600px) {
    .navbar {
      flex-direction: column;
