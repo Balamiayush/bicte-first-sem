@@ -45,3 +45,52 @@ li:hover {
 .box1:hover{
 padding-right:100px;
 }
+@media (max-width: 600px) {
+   .navbar {
+     flex-direction: column;
+     align-items: center;
+   }
+ 
+   .contenthero h1 {
+     font-size: 2rem;
+   }
+ 
+   .contenthero p {
+     font-size: 1rem;
+   }
+ 
+   .hero2 .group {
+     width: 100%;
+   }
+ }
+ 
+
+ @media (max-width: 480px) {
+   .navbar {
+     width: 100%;
+     padding: 1rem;
+   }
+ 
+   .navbar ul {
+     flex-direction: column;
+     gap: 0.5rem;
+   }
+ 
+   .contenthero h1 {
+     font-size: 1.5rem;
+   }
+ 
+   .contenthero p {
+     font-size: 0.8rem;
+   }
+ 
+   .hero2 .group {
+     width: 100%;
+     padding: 1rem;
+   }
+ 
+   .hero3 .1box {
+     width: 100%;
+     padding: 1rem;
+   }
+ }
